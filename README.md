@@ -222,10 +222,10 @@ O servidor irá iniciar em `http://localhost:3000` (ou porta configurada).
 
    Procura por algo como `192.168.x.x` ou `10.0.x.x`
 
-2. Configura a URL da API no ficheiro `mobile/services/api.ts` com o teu IPv4:
+2. Configura a URL da API no ficheiro `.env` com o teu IPv4:
 
    ```typescript
-   const API_URL = "http://192.168.1.X:3000"; // Substitui pelo teu IPv4
+   EXPO_PUBLIC_API_URL=http://192.168.1.x:3000
    ```
 
 3. O servidor e a aplicação mobile devem estar na **mesma rede Wi-Fi**
