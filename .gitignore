@@ -1,0 +1,123 @@
+# ========================
+# GLOBAL
+# ========================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# SERVER (Node.js/Express)
+# ========================
+
+server/node_modules/
+server/dist/
+server/build/
+server/.env
+server/.env.local
+server/.env.*.local
+
+# Prisma
+server/prisma/*.db
+server/prisma/*.db-journal
+server/dev.db
+server/dev.db-journal
+
+# ========================
+# MOBILE (React Native/Expo)
+# ========================
+
+mobile/node_modules/
+mobile/dist/
+mobile/.expo/
+mobile/.expo-shared/
+
+# Native
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.key
+mobile/*.mobileprovision
+mobile/*.orig.*
+mobile/ios/Pods/
+mobile/ios/**/*.mode1v3
+mobile/ios/**/*.mode2v3
+mobile/ios/**/*.moved-aside
+mobile/ios/**/*.pbxuser
+mobile/ios/**/*.perspectivev3
+mobile/ios/**/*sync/
+mobile/ios/**/.sconsign.dblite
+mobile/ios/**/.tags*
+mobile/ios/**/.vagrant/
+mobile/ios/**/DerivedData/
+mobile/ios/**/Icon?
+mobile/ios/**/Pods/
+mobile/ios/**/.xcode.env.local
+mobile/android/**/build/
+mobile/android/**/gradle
+mobile/android/**/gradlew
+mobile/android/**/gradlew.bat
+mobile/android/**/local.properties
+mobile/android/**/*.iml
+mobile/android/**/.gradle
+mobile/android/**/.idea
+mobile/android/**/captures/
+mobile/android/**/.externalNativeBuild
+mobile/android/**/.cxx
+mobile/android/**/google-services.json
+mobile/android/**/keystore.properties
+
+# Expo
+mobile/.expo
+mobile/.expo-shared
+mobile/web-build/
+
+# Metro
+mobile/.metro-health-check*
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# Testing
+mobile/coverage/
+mobile/.nyc_output/
+
+# TypeScript
+mobile/*.tsbuildinfo
+server/*.tsbuildinfo
+
+# Misc
+mobile/.env.local
+mobile/.env.development.local
+mobile/.env.test.local
+mobile/.env.production.local
